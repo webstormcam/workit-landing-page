@@ -4,11 +4,11 @@ module.exports = {
   "./*.{html,js}"],
   theme: {
     fontFamily:{
-manrope:['Manrope','sans-serif'],
-frauces:['Fraunces','sans-serif'],
+      manrope:['Manrope','sans-serif'],
+      fraunces:['Fraunces','sans-serif']
     },
     borderRadius:{
-      'header-round':'60% 5%'
+      'header-round':'80% 15%'
     },
     extend: {
       colors:{
@@ -18,11 +18,9 @@ frauces:['Fraunces','sans-serif'],
         'offWhite':'#FCF8FF',
         'white':'#FFFFFF',
       },
-      backgroundImage:{
-        'mobile': 'url(../images/bg-pattern-1.svg)',
-        // 'tablet':'images/bg-pattern-2.svg',
-        // 'desktop':'images/bg-pattern-3.svg',
-      },
+     width:{
+      '536':'536px',
+     }
     },
   },
   plugins: [],
