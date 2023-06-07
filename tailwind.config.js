@@ -7,6 +7,9 @@ module.exports = {
 manrope:['Manrope','sans-serif'],
 frauces:['Fraunces','sans-serif'],
     },
+    borderRadius:{
+      'header-round':'60% 5%'
+    },
     extend: {
       colors:{
         'darkPurp':'#24053E',
