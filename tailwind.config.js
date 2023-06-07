@@ -7,7 +7,15 @@ module.exports = {
 manrope:['Manrope','sans-serif'],
 frauces:['Fraunces','sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors:{
+        'darkPurp':'#24053E',
+        'neonGreen':'#44FFA1',
+        'brownish':"#584D62",
+        'offWhite':'#FCF8FF',
+        'white':'#FFFFFF',
+      }
+    },
   },
   plugins: [],
 }
