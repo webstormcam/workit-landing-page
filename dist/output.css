@@ -524,12 +524,91 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-32{
+  margin-bottom: 8rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
 .flex{
   display: flex;
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
 .justify-between{
   justify-content: space-between;
+}
+
+.rounded-b-3xl{
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-b-\[25px\]{
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.rounded-b-\[50px\]{
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.rounded-b-\[100px\]{
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.rounded-b-\[-100px\]{
+  border-bottom-right-radius: -100px;
+  border-bottom-left-radius: -100px;
+}
+
+.rounded-b-\[-300px\]{
+  border-bottom-right-radius: -300px;
+  border-bottom-left-radius: -300px;
+}
+
+.rounded-b-\[300px\]{
+  border-bottom-right-radius: 300px;
+  border-bottom-left-radius: 300px;
+}
+
+.rounded-b-\[10px\]{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rounded-b-\[30px\]{
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.border-b-4{
+  border-bottom-width: 4px;
+}
+
+.border-neonGreen{
+  --tw-border-opacity: 1;
+  border-color: rgb(68 255 161 / var(--tw-border-opacity));
+}
+
+.bg-neonGreen{
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 255 161 / var(--tw-bg-opacity));
 }
 
 .bg-darkPurp{
@@ -537,14 +616,23 @@ video {
   background-color: rgb(36 5 62 / var(--tw-bg-opacity));
 }
 
+.bg-mobile{
+  background-image: url(../images/bg-pattern-1.svg);
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-8{
@@ -552,12 +640,38 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-1{
+  padding-bottom: 0.25rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-frauces{
+  font-family: Fraunces, sans-serif;
+}
+
 .font-manrope{
   font-family: Manrope, sans-serif;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.leading-tight{
+  line-height: 1.25;
+}
+
+.text-darkPurp{
+  --tw-text-opacity: 1;
+  color: rgb(36 5 62 / var(--tw-text-opacity));
 }
 
 .text-white{

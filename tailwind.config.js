@@ -14,7 +14,12 @@ frauces:['Fraunces','sans-serif'],
         'brownish':"#584D62",
         'offWhite':'#FCF8FF',
         'white':'#FFFFFF',
-      }
+      },
+      backgroundImage:{
+        'mobile': 'url(../images/bg-pattern-1.svg)',
+        // 'tablet':'images/bg-pattern-2.svg',
+        // 'desktop':'images/bg-pattern-3.svg',
+      },
     },
   },
   plugins: [],
