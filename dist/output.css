@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;700&display=swap');
 
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
@@ -524,15 +524,43 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-center{
-  text-align: center;
+.flex{
+  display: flex;
 }
 
-.font-frauces{
-  font-family: Fraunces, sans-serif;
+.justify-between{
+  justify-content: space-between;
 }
 
-.text-neonGreen{
+.bg-darkPurp{
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 5 62 / var(--tw-bg-opacity));
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.font-manrope{
+  font-family: Manrope, sans-serif;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.text-white{
   --tw-text-opacity: 1;
-  color: rgb(68 255 161 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
