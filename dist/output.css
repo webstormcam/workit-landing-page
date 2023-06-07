@@ -525,16 +525,3 @@ video {
 .text-center {
   text-align: center;
 }
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
-}
