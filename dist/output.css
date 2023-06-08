@@ -731,10 +731,6 @@ video {
     width:536px;
   }
 
-  .md\:max-w-xl{
-    max-width:36rem;
-  }
-
   .md\:px-10{
     padding-left:2.5rem;
     padding-right:2.5rem;
@@ -743,6 +739,10 @@ video {
   .md\:text-6xl{
     font-size:3.75rem;
     line-height:1;
+  }
+
+  .md\:leading-light-tight{
+    line-height:1.2;
   }
 }
 

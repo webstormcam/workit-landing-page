@@ -20,6 +20,9 @@ module.exports = {
       },
      width:{
       '536':'536px',
+     },
+     lineHeight:{
+      'light-tight':'1.2',
      }
     },
   },
