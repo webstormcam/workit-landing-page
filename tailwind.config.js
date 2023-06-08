@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     fontFamily:{
       manrope:['Manrope','sans-serif'],
-      fraunces:['Fraunces','sans-serif']
+      'fraunces':'fraunces-144'
     },
     borderRadius:{
       'header-round':'80% 15%'
