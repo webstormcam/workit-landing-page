@@ -8,7 +8,8 @@ module.exports = {
       'fraunces':'fraunces-144'
     },
     borderRadius:{
-      'header-round':'80% 15%'
+      'header-round':'80% 15%',
+      'full':'9999px',
     },
     extend: {
       colors:{

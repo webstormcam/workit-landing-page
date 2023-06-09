@@ -636,6 +636,10 @@ video {
   overflow:hidden;
 }
 
+.rounded-full{
+  border-radius:9999px;
+}
+
 .rounded-bl-header-round{
   border-bottom-left-radius:80% 15%;
 }
