@@ -532,10 +532,6 @@ video {
   --tw-backdrop-sepia: ;
 }
 
-.fixed{
-  position:fixed;
-}
-
 .absolute{
   position:absolute;
 }
@@ -592,20 +588,20 @@ video {
   margin-top:2rem;
 }
 
-.mt-12{
-  margin-top:3rem;
-}
-
-.mt-40{
-  margin-top:10rem;
-}
-
 .flex{
   display:flex;
 }
 
 .hidden{
   display:none;
+}
+
+.h-12{
+  height:3rem;
+}
+
+.w-12{
+  width:3rem;
 }
 
 .w-80{
@@ -628,24 +624,16 @@ video {
   align-items:center;
 }
 
+.justify-center{
+  justify-content:center;
+}
+
 .justify-between{
   justify-content:space-between;
 }
 
 .overflow-hidden{
   overflow:hidden;
-}
-
-.overflow-visible{
-  overflow:visible;
-}
-
-.overflow-x-hidden{
-  overflow-x:hidden;
-}
-
-.overflow-y-hidden{
-  overflow-y:hidden;
 }
 
 .rounded-bl-header-round{
@@ -662,6 +650,11 @@ video {
 
 .border-b-4{
   border-bottom-width:4px;
+}
+
+.border-brownish{
+  --tw-border-opacity:1;
+  border-color:rgb(88 77 98 / var(--tw-border-opacity));
 }
 
 .border-neonGreen{
@@ -704,34 +697,12 @@ video {
   padding-bottom:2rem;
 }
 
-.py-10{
-  padding-top:2.5rem;
-  padding-bottom:2.5rem;
-}
-
-.py-20{
-  padding-top:5rem;
-  padding-bottom:5rem;
-}
-
 .pb-1{
   padding-bottom:0.25rem;
 }
 
 .pt-40{
   padding-top:10rem;
-}
-
-.pt-20{
-  padding-top:5rem;
-}
-
-.pt-32{
-  padding-top:8rem;
-}
-
-.pt-56{
-  padding-top:14rem;
 }
 
 .text-center{
@@ -749,6 +720,11 @@ video {
 .text-5xl{
   font-size:3rem;
   line-height:1;
+}
+
+.text-xl{
+  font-size:1.25rem;
+  line-height:1.75rem;
 }
 
 .font-bold{
@@ -771,14 +747,6 @@ video {
 .text-white{
   --tw-text-opacity:1;
   color:rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:border-2:hover{
-  border-width:2px;
-}
-
-.hover\:border-b-4:hover{
-  border-bottom-width:4px;
 }
 
 .hover\:border-neonGreen:hover{
@@ -811,18 +779,6 @@ video {
 
   .md\:w-536{
     width:536px;
-  }
-
-  .md\:overflow-hidden{
-    overflow:hidden;
-  }
-
-  .md\:overflow-x-hidden{
-    overflow-x:hidden;
-  }
-
-  .md\:overflow-y-hidden{
-    overflow-y:hidden;
   }
 
   .md\:px-10{
@@ -861,11 +817,6 @@ video {
     max-width:28rem;
   }
 
-  .lg\:py-8{
-    padding-top:2rem;
-    padding-bottom:2rem;
-  }
-
   .lg\:px-8{
     padding-left:2rem;
     padding-right:2rem;
@@ -887,14 +838,6 @@ video {
 
   .lg\:leading-tight{
     line-height:1.25;
-  }
-
-  .lg\:leading-normal{
-    line-height:1.5;
-  }
-
-  .lg\:leading-snug{
-    line-height:1.375;
   }
 }
 
