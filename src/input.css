@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@font-face{
+    font-family:'fraunces-144';
+    font-weight: 600;
+    src:url('../font/Fraunces_144.ttf') format('truetype'); 
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+

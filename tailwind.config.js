@@ -4,8 +4,11 @@ module.exports = {
   "./*.{html,js}"],
   theme: {
     fontFamily:{
-manrope:['Manrope','sans-serif'],
-frauces:['Fraunces','sans-serif'],
+      manrope:['Manrope','sans-serif'],
+      'fraunces':'fraunces-144'
+    },
+    borderRadius:{
+      'header-round':'80% 15%'
     },
     extend: {
       colors:{
@@ -14,7 +17,18 @@ frauces:['Fraunces','sans-serif'],
         'brownish':"#584D62",
         'offWhite':'#FCF8FF',
         'white':'#FFFFFF',
-      }
+      },
+     width:{
+      '536':'536px',
+      '767':'767px',
+     },
+     lineHeight:{
+      'light-tight':'1.2',
+     },
+     maxWidth:{
+      'MAX':'1114px',
+      'MAXXER':'1300px'
+     }
     },
   },
   plugins: [],
