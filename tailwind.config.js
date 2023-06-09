@@ -20,9 +20,14 @@ module.exports = {
       },
      width:{
       '536':'536px',
+      '767':'767px',
      },
      lineHeight:{
       'light-tight':'1.2',
+     },
+     maxWidth:{
+      'MAX':'1114px',
+      'MAXXER':'1300px'
      }
     },
   },
