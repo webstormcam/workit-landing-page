@@ -608,13 +608,6 @@ video {
   height:3rem;
 }
 
-<<<<<<< Updated upstream
-=======
-.w-12{
-  width:3rem;
-}
-
->>>>>>> Stashed changes
 .w-80{
   width:20rem;
 }
@@ -651,13 +644,8 @@ video {
   overflow:hidden;
 }
 
-<<<<<<< Updated upstream
 .rounded-full{
   border-radius:9999px;
-=======
-.overflow-x-hidden{
-  overflow-x:hidden;
->>>>>>> Stashed changes
 }
 
 .rounded-bl-header-round{
@@ -701,13 +689,6 @@ video {
   background-color:rgb(252 248 255 / var(--tw-bg-opacity));
 }
 
-<<<<<<< Updated upstream
-=======
-.p-10{
-  padding:2.5rem;
-}
-
->>>>>>> Stashed changes
 .px-4{
   padding-left:1rem;
   padding-right:1rem;
@@ -945,7 +926,6 @@ video {
     max-width:28rem;
   }
 
-<<<<<<< Updated upstream
   .lg\:flex-col{
     flex-direction:column;
   }
@@ -954,8 +934,6 @@ video {
     flex-wrap:wrap;
   }
 
-=======
->>>>>>> Stashed changes
   .lg\:px-8{
     padding-left:2rem;
     padding-right:2rem;
