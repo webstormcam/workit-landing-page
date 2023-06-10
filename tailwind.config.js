@@ -8,7 +8,11 @@ module.exports = {
       'fraunces':'fraunces-144'
     },
     borderRadius:{
-      'header-round':'80% 15%'
+      'header-round':'80% 15%',
+      'full':'9999px',
+    },
+    minWidth:{
+      '48':'48px',
     },
     extend: {
       colors:{
@@ -26,6 +30,7 @@ module.exports = {
       'light-tight':'1.2',
      },
      maxWidth:{
+      'max573':'573px',
       'MAX':'1114px',
       'MAXXER':'1300px'
      }
