@@ -965,6 +965,22 @@ video {
     left:-385px;
   }
 
+  .lg\:bottom-40{
+    bottom:10rem;
+  }
+
+  .lg\:bottom-56{
+    bottom:14rem;
+  }
+
+  .lg\:bottom-64{
+    bottom:16rem;
+  }
+
+  .lg\:left-\[-320px\]{
+    left:-320px;
+  }
+
   .lg\:mx-8{
     margin-left:2rem;
     margin-right:2rem;
