@@ -30,6 +30,7 @@ module.exports = {
       'light-tight':'1.2',
      },
      maxWidth:{
+      '321px':'321px',
       'max573':'573px',
       'MAX':'1114px',
       'MAXXER':'1300px'
