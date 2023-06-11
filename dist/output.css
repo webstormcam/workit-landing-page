@@ -552,6 +552,10 @@ video {
   right:-5rem;
 }
 
+.bottom-16{
+  bottom:4rem;
+}
+
 .bottom-20{
   bottom:5rem;
 }
@@ -566,26 +570,6 @@ video {
 
 .top-24{
   top:6rem;
-}
-
-.top-4{
-  top:1rem;
-}
-
-.bottom-4{
-  bottom:1rem;
-}
-
-.bottom-8{
-  bottom:2rem;
-}
-
-.bottom-12{
-  bottom:3rem;
-}
-
-.bottom-16{
-  bottom:4rem;
 }
 
 .z-0{
@@ -660,6 +644,10 @@ video {
   max-width:321px;
 }
 
+.max-w-689px{
+  max-width:689px;
+}
+
 .max-w-sm{
   max-width:24rem;
 }
@@ -729,6 +717,11 @@ video {
   background-color:rgb(252 248 255 / var(--tw-bg-opacity));
 }
 
+.px-2{
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+}
+
 .px-4{
   padding-left:1rem;
   padding-right:1rem;
@@ -737,6 +730,11 @@ video {
 .px-6{
   padding-left:1.5rem;
   padding-right:1.5rem;
+}
+
+.px-8{
+  padding-left:2rem;
+  padding-right:2rem;
 }
 
 .py-24{
@@ -754,26 +752,16 @@ video {
   padding-bottom:2rem;
 }
 
-.px-8{
-  padding-left:2rem;
-  padding-right:2rem;
-}
-
-.px-2{
-  padding-left:0.5rem;
-  padding-right:0.5rem;
-}
-
 .pb-1{
   padding-bottom:0.25rem;
 }
 
-.pt-40{
-  padding-top:10rem;
-}
-
 .pt-28{
   padding-top:7rem;
+}
+
+.pt-40{
+  padding-top:10rem;
 }
 
 .text-center{
@@ -834,11 +822,6 @@ video {
   color:rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-neonGreen{
-  --tw-text-opacity:1;
-  color:rgb(68 255 161 / var(--tw-text-opacity));
-}
-
 .hover\:border-neonGreen:hover{
   --tw-border-opacity:1;
   border-color:rgb(68 255 161 / var(--tw-border-opacity));
@@ -859,6 +842,18 @@ video {
     bottom:-11rem;
   }
 
+  .md\:bottom-36{
+    bottom:9rem;
+  }
+
+  .md\:left-28{
+    left:7rem;
+  }
+
+  .md\:left-\[-180px\]{
+    left:-180px;
+  }
+
   .md\:mb-40{
     margin-bottom:10rem;
   }
@@ -871,8 +866,16 @@ video {
     display:block;
   }
 
+  .md\:w-514{
+    width:514px;
+  }
+
   .md\:w-536{
     width:536px;
+  }
+
+  .md\:w-439{
+    width:439px;
   }
 
   .md\:max-w-max573{
@@ -888,12 +891,43 @@ video {
     padding-right:2.5rem;
   }
 
+  .md\:py-16{
+    padding-top:4rem;
+    padding-bottom:4rem;
+  }
+
+  .md\:py-40{
+    padding-top:10rem;
+    padding-bottom:10rem;
+  }
+
   .md\:pt-60{
     padding-top:15rem;
   }
 
+  .md\:pt-40{
+    padding-top:10rem;
+  }
+
+  .md\:pb-24{
+    padding-bottom:6rem;
+  }
+
+  .md\:pt-20{
+    padding-top:5rem;
+  }
+
+  .md\:pt-0{
+    padding-top:0px;
+  }
+
   .md\:text-left{
     text-align:left;
+  }
+
+  .md\:text-5xl{
+    font-size:3rem;
+    line-height:1;
   }
 
   .md\:text-6xl{

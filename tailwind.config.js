@@ -23,6 +23,8 @@ module.exports = {
         'white':'#FFFFFF',
       },
      width:{
+      '439':'439px',
+      '514':'514px',
       '536':'536px',
       '767':'767px',
      },
@@ -32,6 +34,7 @@ module.exports = {
      maxWidth:{
       '321px':'321px',
       'max573':'573px',
+      '689px':'689px',
       'MAX':'1114px',
       'MAXXER':'1300px'
      }
