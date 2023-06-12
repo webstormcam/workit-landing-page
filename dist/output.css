@@ -1083,3 +1083,17 @@ video {
   }
 }
 
+@media (min-width: 1280px){
+  .xl\:left-40{
+    left:10rem;
+  }
+
+  .xl\:left-44{
+    left:11rem;
+  }
+
+  .xl\:left-48{
+    left:12rem;
+  }
+}
+
