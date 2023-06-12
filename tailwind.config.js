@@ -23,14 +23,22 @@ module.exports = {
         'white':'#FFFFFF',
       },
      width:{
+      '439':'439px',
+      '477':'477px',
+      '500':'500px',
       '536':'536px',
+      '730':'730px',
       '767':'767px',
      },
      lineHeight:{
       'light-tight':'1.2',
      },
      maxWidth:{
+      '321px':'321px',
+      '477':'477px',
       'max573':'573px',
+      '689px':'689px',
+      '1112':'1112px',
       'MAX':'1114px',
       'MAXXER':'1300px'
      }
